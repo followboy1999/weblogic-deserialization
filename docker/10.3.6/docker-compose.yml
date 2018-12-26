@@ -1,0 +1,7 @@
+version: '2'
+services:
+ weblogic:
+   build: . 
+   ports:
+    - "7001:7001"
+    - "8453:8453"
